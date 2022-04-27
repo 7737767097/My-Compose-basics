@@ -48,14 +48,11 @@ class MainActivity : ComponentActivity() {
     override fun onResume() {
         super.onResume()
     }
-
-
 }
 
 @Composable
 fun Greeting(name: String) {
     Text(text = "Hello $name!")
-
 }
 
 @ExperimentalAnimationApi
