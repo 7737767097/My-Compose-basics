@@ -48,6 +48,7 @@ class MainActivity : ComponentActivity() {
     override fun onResume() {
         super.onResume()
         "Commit 4"
+        "Commit 5"
     }
 }
 
